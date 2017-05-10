@@ -176,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
             Bitmap bitmap = lrucacher.getBitmapFromMemory(imgs[position]);
             if (bitmap != null){
                 iv.setImageBitmap(bitmap);
-            }else{
+            }else{https://git.coding.net/RunningXiaoHei/Kapp.git
                 iv.setImageResource(R.mipmap.ic_launcher);
             }
             return view;
